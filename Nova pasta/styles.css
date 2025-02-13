@@ -1,0 +1,202 @@
+body {
+    background-color: #333333;
+    color: #D3D3D3;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background: linear-gradient(10deg, #333333, #D3D3D3);
+    color: black;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.titulo-principal {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.nav {
+    margin: 20px 0;
+}
+
+.nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.nav-link {
+    color: #D3D3D3;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    color: #000000;
+    background-color: #D3D3D3;
+}
+
+.main-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.descricao {
+    text-align: center;
+}
+
+.descricao p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+#profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 20px auto;
+}
+
+.servicos {
+    background-color: #222222;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.servicos h2 {
+    color: #D3D3D3;
+    margin-bottom: 20px;
+}
+
+.servicos ul {
+    list-style: none;
+    padding: 0;
+    font-size: 18px;
+}
+
+.servicos ul li {
+    margin: 10px 0;
+}
+
+.desenhos {
+    background-color: #222222;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.desenhos h2 {
+    color: #D3D3D3;
+    margin-bottom: 20px;
+}
+
+.desenho-item {
+    margin-bottom: 20px;
+}
+
+.desenho-item img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.desenho-titulo {
+    font-size: 1.5em;
+    color: #D3D3D3;
+    margin-top: 10px;
+}
+
+.desenho-desc {
+    font-size: 16px;
+    color: #A9A9A9;
+}
+
+.footer {
+    background-color: #111111;
+    color: #D3D3D3;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.footer p {
+    margin: 10px 0;
+}
+
+/* Adicionando uma regra de mídia para telas pequenas */
+@media screen and (max-width: 768px) {
+    .main-content {
+        padding: 10px;
+    }
+
+    .descricao p {
+        font-size: 16px;
+    }
+
+    .servicos ul li {
+        font-size: 16px;
+    }
+
+    #profile-pic {
+        width: 120px;
+        height: 120px;
+    }
+
+    .desenho-item img {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+/* Estilo para a seção de informações de contato */
+.informacoes {
+    background-color: #222222;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.informacoes a {
+    color: #D3D3D3;
+    font-size: 1.2em;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.informacoes a:hover {
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+
+.btn-voltar {
+    background-color: #D3D3D3;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.btn-voltar:hover {
+    background-color: #333333;
+    color: #D3D3D3;
+}
